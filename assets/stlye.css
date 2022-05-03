@@ -1,3 +1,20 @@
-.back {
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
     background-color: #5e5d5b;
+    color: rgb(233, 230, 230);
+}
+.align {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    margin-right: 20px;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 13px;
 }
