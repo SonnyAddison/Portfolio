@@ -1,3 +1,4 @@
+/* Set up the body formating */
 body {
     font-size: 16px;
     display: flex;
@@ -6,15 +7,22 @@ body {
     background-color: #5e5d5b;
     color: rgb(233, 230, 230);
 }
-.align {
-    display: inline-flex;
-    flex-wrap: wrap;
+header {
+    display: flex;
+    padding: 20px;
+}
+header h1 {
+       font-size: 30px;    
+}
+header nav {
+    float: right;
+}
+header nav ul {
     padding-top: 15px;
     margin-right: 20px;
-    
+    display: inline-flex;
+    float: right;
+    font-size: 15px;
+    list-style-type: none;
 }
-nav ul li {
-    display: inline-block;
-    margin-left: 100px;
-    font-size: 13px;
-}
+
