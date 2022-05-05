@@ -1,8 +1,6 @@
 /* Set up the body formating */
 body {
     font-size: 16px;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh; 
     background-color: #5e5d5b;
     color: rgb(233, 230, 230);
@@ -10,12 +8,14 @@ body {
 header {
     display: flex;
     padding: 20px;
+    justify-content: space-between;
+    flex-direction: row;
 }
 header h1 {
        font-size: 30px;    
 }
-header nav {
-    float: right;
+nav {
+    display: block;
 }
 header nav ul {
     padding-top: 15px;
@@ -25,4 +25,22 @@ header nav ul {
     font-size: 15px;
     list-style-type: none;
 }
+.grid {
+    display: inline-flex;
+    align-items: flex-end;
+}
+.about-header {
+    position: relative;
+    margin-top: -30px;
+}
+.work {
+    background-color: cadetblue;
+}
+.contact {
+    background-color: midnightblue;
+}
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
