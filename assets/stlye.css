@@ -61,11 +61,21 @@ span {
     border-left-style: inset;
 }
 .spacing2 {
-    margin-left: 12.5%;
+    margin-left: 29%;
     padding-left: 20px;
     border-left-style: inset;
     margin-top: 40px;
 }
 .center {
     justify-content: center;
+}
+.thumb {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 75px;
+}
+.horis {
+    background-image: url(".assets/images/htmlCSS.JPG"), url(assets/images/Horiseon.JPG);
+
 }
