@@ -25,6 +25,7 @@ header nav ul {
     float: right;
     font-size: 15px;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 /* Setting up layout for photos/section */
 .grid {
@@ -73,9 +74,11 @@ span {
     margin-top: 40px;
 }
 .spacing3 {
+    margin-left: 07.6%;
     padding-left: 20px;
     border-left-style: inset;
 }
+
 .center {
     justify-content: center;
 }
@@ -109,8 +112,20 @@ span {
 .hyper {
     color:#ddd;
 }
+.bullets {
+    list-style-type: none;
+    margin-top: 50px;
+}
 
 footer {
     display: flex;
     justify-content: space-between;
-}   
+}
+@media screen and (max-width: 600px) {
+    main{
+        flex-wrap: wrap;
+    }
+    nav {
+        flex-direction: column;
+    }    
+}  
