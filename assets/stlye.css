@@ -5,6 +5,7 @@ body {
     background-color: #5e5d5b;
     color: rgb(233, 230, 230);
 }
+/* Header formating */
 header {
     display: flex;
     padding: 20px;
@@ -25,19 +26,21 @@ header nav ul {
     font-size: 15px;
     list-style-type: none;
 }
+/* Setting up layout for photos/section */
 .grid {
     display: inline-flex;
     align-items: center;
 }
-
-footer {
-    display: flex;
-    justify-content: space-between;
+.grid2 {
+    display: inline-flex;
+    align-items: center;
 }
+/* Allows for intro to about section */
 span {
     font-size: 30px;
     color:coral    
 }
+/* setup image paramaters for places worked icons */
 .img {
   width: 125px;
   height: 50%;  
@@ -46,36 +49,68 @@ span {
     flex: 1;
     background-color: var(--white);  
 }
-.card {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 20px;
+.card1 {
     padding: 10px;
     flex: 0 0 200px;
-    box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
 }
+.card2 {
+    border-radius: 80px;
+    padding: 10px;
+    flex: 0 0 200px;
+    margin: 20px;
+}
+/* Allows for differeant spacing withing the page */
 .spacing {
     margin-left: 06%;
     padding-left: 20px;
     border-left-style: inset;
 }
 .spacing2 {
-    margin-left: 29%;
+    margin-left: 05.7%;
     padding-left: 20px;
     border-left-style: inset;
     margin-top: 40px;
 }
+.spacing3 {
+    padding-left: 20px;
+    border-left-style: inset;
+}
 .center {
     justify-content: center;
 }
+/* Style and format for Projects section */
 .thumb {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 75px;
+  width: 10%;
+  margin-bottom: 205px;
 }
-.horis {
-    background-image: url(".assets/images/htmlCSS.JPG"), url(assets/images/Horiseon.JPG);
+.select {
+    border: 4px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+}
+.select:hover {
+    box-shadow: 0 0 5px 6px rgba(220, 19, 238, 0.5);
+}
+.select2 {
+    border: 4px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 35%;
+    margin-bottom: 130px;
+}
+.select2:hover {
+    box-shadow: 0 0 5px 6px rgba(220, 19, 238, 0.5);
+}
+.hyper {
+    color:#ddd;
+}
 
-}
+footer {
+    display: flex;
+    justify-content: space-between;
+}   
