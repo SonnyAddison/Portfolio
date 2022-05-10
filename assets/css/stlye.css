@@ -29,7 +29,7 @@ header nav ul {
 }
 /* Setting up layout for photos/section */
 .grid {
-    display: inline-flex;
+    display: flex;
     align-items: center;
 }
 .grid2 {
@@ -63,18 +63,18 @@ span {
 }
 /* Allows for differeant spacing withing the page */
 .spacing {
-    margin-left: 06%;
+    margin-left: 6%;
     padding-left: 20px;
     border-left-style: inset;
 }
 .spacing2 {
-    margin-left: 05.7%;
+    margin-left: 5.7%;
     padding-left: 20px;
     border-left-style: inset;
     margin-top: 40px;
 }
 .spacing3 {
-    margin-left: 07.6%;
+    margin-left: 4.7%;
     padding-left: 20px;
     border-left-style: inset;
 }
