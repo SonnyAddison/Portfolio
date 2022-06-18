@@ -88,8 +88,22 @@ span {
   border-radius: 4px;
   padding: 5px;
   width: 10%;
-  margin-bottom: 205px;
+  margin-bottom: 100px;
 }
+.thumb2 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 10%;
+    margin-bottom: 205px;
+  }
+  .thumb3 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 10%;
+    margin-bottom: 170px;
+  }
 .select {
     border: 4px solid #ddd;
     border-radius: 4px;
